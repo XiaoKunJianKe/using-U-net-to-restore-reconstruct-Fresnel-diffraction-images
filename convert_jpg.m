@@ -1,8 +1,8 @@
 load('mnist_all.mat');
 type = 'train'; %another style:type = 'test'represent test set.because 
 % mnist_all.mat contains train and test set.
-savePath = 'E:/Mnist_32_32_60000/train_image_';% save  Fresnel diffraction images.
-savedir='E:/Mnist_32_32_60000/train_label_'; % save original digit images.
+savePath = 'E:/Mnist_32_32/train_image_';% save  Fresnel diffraction images.
+savedir='E:/Mnist_32_32/train_label_'; % save original digit images.
 for num = 0:1:9
     numStr = num2str(num);
     tempNumPath = strcat(savePath, numStr);
